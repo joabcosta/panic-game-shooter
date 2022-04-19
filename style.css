@@ -1,0 +1,80 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background-color: gainsboro ;
+    background-image: url(/images/background-game.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contatos{
+    margin-top: -23px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    color: rgb(36, 36, 29);
+}
+.player-shooter{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    left: 20px;
+    top: 250px;
+}
+
+.main-play-area{
+    display: table-cell;
+    vertical-align: middle;
+    background-color: rgb(255, 2, 2);
+    background-image: url(/images/bg-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.81;
+    border-radius: 17px;
+    height: 600px;
+    width: 800px;
+}
+.game-instructions{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    width: 50%;
+    background-color: rgb(255, 19, 19);
+}
+.game-instructions:hover{
+    background-color: rgba(255, 19, 19, 0.719);
+    box-shadow: 1px 1px 30px rgb(255, 95, 47);
+}
+.start-button{
+    position: relative;
+    color: white;
+    cursor: pointer;
+}
+.knife{
+    position: relative;
+    width: 40px;
+    height: 30px;
+}
+
+.alien{
+    height: 50px;
+    width: 50px;
+    position: relative;
+}
+
+.alien-transition{
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.dead-alien{
+    height: 77px;
+    width: 100px;
+    transition: opacity 5.5s ease-in-out;
+}
